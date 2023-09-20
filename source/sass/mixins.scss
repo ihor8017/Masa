@@ -50,14 +50,14 @@
   }
 }
 
-@mixin vp-1279 {
-  @media (max-width: ($vp-1280 - 1px)) {
+@mixin vp-1239 {
+  @media (max-width: ($vp-1240 - 1px)) {
     @content;
   }
 }
 
-@mixin vp-1023 {
-  @media (max-width: ($vp-1024 - 1px)) {
+@mixin vp-1200 {
+  @media (max-width: ($vp-1200 - 1px)) {
     @content;
   }
 }
@@ -68,8 +68,8 @@
   }
 }
 
-@mixin vp-374 {
-  @media (max-width: ($vp-375 - 1px)) {
+@mixin vp-320 {
+  @media (max-width: ($vp-320 - 1px)) {
     @content;
   }
 }
