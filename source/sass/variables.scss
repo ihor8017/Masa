@@ -3,8 +3,13 @@
 
 // Default
 
-$color-default-black:               #000000;
-$color-default-white:               #ffffff;
+$color-default-black:     #484848;
+$color-default-white:     #ffffff;
+$secondaryLight:          #f0efe9;
+$baseButton:              #316dc2;
+$stateButton:             #275699;
+$disabledColor:           #a9afb7;
+$errorColor:              #ff5e66;
 $color-transparent:                 rgba(255, 255, 255, 0);
 
 // Project palette
@@ -21,7 +26,7 @@ $black-to-right:                    linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0
 // ---------------------------------
 
 // переменная используемая в html для подключения скейлинга
-$fz-default:                        16px;
+$fz-default:                        14px;
 
 // у некоторых шрифтов в ios возникают проблемы с символом рубля
 // https://www.artlebedev.ru/kovodstvo/sections/159/#13

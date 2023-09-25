@@ -1,0 +1,15 @@
+.header-navigation {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+@include vp-1439 {
+  .header-navigation {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

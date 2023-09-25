@@ -1,0 +1,13 @@
+.header {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #807d7d;
+}
+
+.header__wrapper {
+  width: $vp-1240;
+
+  @include vp-1200 {
+    width: 100%;
+  }
+}

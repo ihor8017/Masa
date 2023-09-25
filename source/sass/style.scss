@@ -14,7 +14,6 @@
 @import "global/reboot";
 @import "global/utils";
 @import "global/container";
-@import "global/global";
 
 // Blocks
 // ---------------------------------
@@ -24,6 +23,11 @@
 @import "blocks/custom-input";
 @import "blocks/custom-toggle";
 @import "blocks/custom-select";
+@import "blocks/header";
+@import "blocks/logo";
+@import "blocks/header-navigation";
+@import "blocks/navigation";
+@import "blocks/overlay";
 
 // ---------------------------------
 
